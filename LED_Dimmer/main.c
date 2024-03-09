@@ -33,6 +33,10 @@ void main(void)
     return;
 }
 
+/*
+* ***** PWM Module ******
+*/
+
 // Initialize PWM module
 void PWM1_Init()
 {
@@ -65,6 +69,10 @@ void PWM1_Set_Duty(uint16_t DC)
         CCPR1L = DC >> 2;
     }
 }
+
+/*
+* ***** ADC Module ******
+*/
 
 // Initialize ADC module
 void ADC_Init()
